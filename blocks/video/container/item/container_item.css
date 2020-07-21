@@ -1,0 +1,41 @@
+@import url('./__icon_play/item__icon_play.css');
+@import url('./_duration/item__duration.css');
+@import url('./__title/item__title.css');
+@import url('./__subtitle/item__subtitle.css');
+@import url('./_theme-bg/item__item-bg.css');
+.container__item {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1280px) {
+    .container__item {
+        max-width: 583px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container__item {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container__item {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container__item {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__item {
+        max-width: 288px;
+    }
+}

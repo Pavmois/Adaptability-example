@@ -1,0 +1,27 @@
+@import url('./__title/barentsburg__title.css');
+@import url('./__coord/barentsburg__coord.css');
+@import url('./__map/barentsburg__map.css');
+@import url('./__container/barentsburg__container.css');
+.barentsburg {
+    position: relative;
+    width: 1184px;
+    margin-top: 85px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Medium.woff") format("woff"), url("../fonts/Inter/Inter-Medium.woff2") format("woff2");
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Bold.woff") format("woff"), url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
+    font-family: 'Inter-Bold';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-ExtraBold.woff") format("woff"), url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+    font-family: 'Inter-ExtraBold';
+}

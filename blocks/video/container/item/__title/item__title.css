@@ -1,0 +1,31 @@
+.item__title {
+    width: 90%;
+    font-family: Inter-ExtraBold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+    z-index: 1;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .item__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

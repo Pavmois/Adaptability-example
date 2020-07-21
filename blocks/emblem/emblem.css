@@ -1,0 +1,22 @@
+@import url('./__title/emblem__title.css');
+@import url('./emblem__container/emblem__container.css');
+.emblem {
+    width: 1184px;
+    margin-top: 82px;
+    margin-left: 48px;
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Medium.woff") format("woff"), url("../fonts/Inter/Inter-Medium.woff2") format("woff2");
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Bold.woff") format("woff"), url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
+    font-family: 'Inter-Bold';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-ExtraBold.woff") format("woff"), url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+    font-family: 'Inter-ExtraBold';
+}
