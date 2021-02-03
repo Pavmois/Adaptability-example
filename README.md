@@ -1,3 +1,3 @@
-# Кроссбраузерный, адаптивный сайт
+## Кроссбраузерный, адаптивный сайт
 
 https://pavmois.github.io/Adaptability-example/
